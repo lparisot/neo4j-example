@@ -1,5 +1,4 @@
 target/
-!.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
 .apt_generated
@@ -22,3 +21,45 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+######################
+# Gradle
+######################
+.gradle/
+/build/
+
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
+
+######################
+# Directories
+######################
+/bin/
+/deploy/
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# Others
+######################
+*.class
+*.*~
+*~
+.merge_file*
+
+######################
+# Gradle Wrapper
+######################
+!gradle/wrapper/gradle-wrapper.jar
+
+
+######################
+# ESLint
+######################
+.eslintcache
